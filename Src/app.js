@@ -2,7 +2,7 @@ const contractAddress = '0x123...'; // Replace with your smart contract address
 
 const contractABI = [
 
-  // Replace with your smart contract ABI
+  Marketplace.abi.json
 
 ];
 
