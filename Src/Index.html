@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+	<title>NFT Marketplace</title>	<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+	<h1>NFT Marketplace</h1>
+
+	<h2>Create new NFT</h2>
+
+	<form>
+
+		<label for="name">Name:</label>
+
+		<input type="text" id="name" name="name">
+
+		<label for="description">Description:</label>
+
+		<input type="text" id="description" name="description">
+
+		<label for="price">Price:</label>
+
+		<input type="number" id="price" name="price">
+
+		<button type="submit" id="createNFTButton">Create NFT</button>
+
+	</form>
+
+	<h2>NFTs for sale</h2>
+
+	<ul id="nftList"></ul>
+
+	<h2>Purchase NFT</h2>
+
+	<form>
+
+		<label for="nftId">NFT ID:</label>
+
+		<input type="number" id="nftId" name="nftId">
+
+		<label for="buyerAddress">Buyer address:</label>
+
+		<input type="text" id="buyerAddress" name="buyerAddress">
+
+		<button type="submit" id="purchaseNFTButton">Purchase NFT</button>
+
+	</form>
+
+	<h2>Withdraw funds</h2>
+
+	<form>
+
+		<label for="sellerAddress">Seller address:</label>
+
+		<input type="text" id="sellerAddress" name="sellerAddress">
+
+		<button type="submit" id="withdrawFundsButton">Withdraw Funds</button>
+
+	</form>
+
+	<script src="https://cdn.jsdelivr.net/npm/@celo/contractkit"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/@celo/identity"></script>
+
+	<script src="https://cdn.jsdelivr.net/npm/@celo/stabletoken"></script>
+
+	<script src="app.js"></script>
+
+</body>
+
+</html>
