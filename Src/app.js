@@ -8,7 +8,7 @@ const contractABI = [
 
 const kit = ContractKit.newKit('https://forno.celo.org'); // Use the Celo forno testnet
 
-const stableTokenContractAddress = '0x123...'; // Replace with the address of the cUSD stablecoin
+const stableTokenContractAddress = '0x765DE816845861e75A25fCA122bb6898B8B1282a'; // Replace with the address of the cUSD stablecoin
 
 const stableTokenContractABI = [
 
